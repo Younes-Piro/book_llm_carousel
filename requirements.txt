@@ -1,0 +1,10 @@
+chromadb==0.4.15
+InstructorEmbedding
+sentence_transformers
+langchain
+tiktoken
+pypdf
+PyPDF2
+python-dotenv
+langchain-google-genai
+umap-learn
