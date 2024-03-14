@@ -15,11 +15,14 @@ pattern = r"Alexei Vitchenko"
 # take paragraphs after pattern
 books_imp = helpers.skip_before_pattern(pattern, book_text)
 
-docs = [
+book_docs = [
     Document(
         page_content=books_imp.strip(),
         metadata={"page": 0},
     )
 ]
+## split into chunks
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=150)
+docs = text_splitter.split_documents(book_docs)
 
 print(docs)

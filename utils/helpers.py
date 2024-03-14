@@ -28,4 +28,4 @@ def skip_before_pattern(pattern, text):
     else:
         desired_text = text
 
-    return text
+    return desired_text
