@@ -8,3 +8,5 @@ PyPDF2
 python-dotenv
 langchain-google-genai
 umap-learn
+langchain-community
+pdfminer
