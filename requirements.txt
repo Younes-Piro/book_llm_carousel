@@ -1,6 +1,6 @@
 chromadb==0.4.15
 InstructorEmbedding
-sentence_transformers
+sentence-transformers==2.2.2
 langchain
 tiktoken
 pypdf
