@@ -3,10 +3,9 @@ InstructorEmbedding
 sentence-transformers==2.2.2
 langchain
 tiktoken
-pypdf
-PyPDF2
 python-dotenv
 langchain-google-genai
 umap-learn
 langchain-community
 pdfminer
+streamlit
